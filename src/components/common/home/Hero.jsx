@@ -3,7 +3,7 @@ import Navbar from './Navbar';
 
 export default function Hero() {
   const linkStyle =
-    'text-[18px] font-medium flex gap-2 items-center text-white rounded-[10px] py-2 px-4';
+    'text-[17px] font-medium flex gap-2 items-center text-white rounded-[10px] py-2 px-4';
 
   return (
     <div className="hero px-10 lg:px-40 h-[140vh] lg:h-[90vh]">
@@ -30,7 +30,7 @@ export default function Hero() {
                 <img
                   src="/images/whatsapp.svg"
                   alt="whatsapp"
-                  className="h-6"
+                  className="h-5"
                 />
               </a>
               <a
@@ -41,7 +41,7 @@ export default function Hero() {
                 <img
                   src="/images/instagram.svg"
                   alt="whatsapp"
-                  className="h-6"
+                  className="h-5"
                 />
               </a>
             </div>
@@ -50,7 +50,7 @@ export default function Hero() {
               className={`${linkStyle} bg-[#00a8eb]`}
             >
               <span>Twitter</span>
-              <img src="/images/twitter.svg" alt="whatsapp" className="h-6" />
+              <img src="/images/twitter.svg" alt="whatsapp" className="h-5" />
             </a>
           </div>
         </div>
