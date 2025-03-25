@@ -19,6 +19,9 @@ body {
   height: screen;
 }
 
+.hero {
+  overflow-x: hidden;
+}
 
 @keyframes move {
   0% {
