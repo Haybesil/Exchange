@@ -3,7 +3,7 @@ import Navbar from './Navbar';
 
 export default function Hero() {
   const linkStyle =
-    'text-[17px] font-medium flex gap-2 items-center text-white rounded-[10px] py-2 px-4';
+    'text-[15px] lg:text-[17px] font-medium flex gap-2 items-center text-white rounded-[10px] py-2 px-4';
 
   return (
     <div className="hero px-10 lg:px-40 h-[140vh] lg:h-[90vh]">
