@@ -6,7 +6,7 @@ export default function Navbar() {
     <div>
       <nav className='flex gap-10 lg:justify-between items-center pt-5'>
         <img src="/images/logo2.png" alt="" className='h-9'/>
-        <ButtonSolid className='!bg-[#00529e] !rounded-full'>Chat Us</ButtonSolid>
+        <ButtonSolid className='!bg-[#00529e] !rounded-[50px]'>Chat Us</ButtonSolid>
       </nav>
     </div>
   )
